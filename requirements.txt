@@ -1,0 +1,11 @@
+requests
+spacy==2.2.0
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz#egg=en_core_web_sm==2.2.5
+https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-2.2.5/de_core_news_sm-2.2.5.tar.gz
+https://github.com/explosion/spacy-models/releases/download/fr_core_news_sm-2.2.5/fr_core_news_sm-2.2.5.tar.gz
+https://github.com/explosion/spacy-models/releases/download/it_core_news_sm-2.2.5/it_core_news_sm-2.2.5.tar.gz
+https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm-2.2.5/pt_core_news_sm-2.2.5.tar.gz
+nltk==3.4.5
+stanford
+stanford-corenlp==3.9.2
+agdistispy

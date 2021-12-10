@@ -1,0 +1,54 @@
+{
+  "tools": [
+  "spacy",
+  "nltk",
+  "stanford",
+  "stanza"
+  ],
+
+  "languages": ["eng","deu","fra","por","ita","cro"],
+  "tag_map": {
+        "PERSON": ["person","Person","PER","per","Per"],
+        "NORP": ["Nationality","nationality","religion","Religion"],
+        "FAC": ["faculty","Faculty","FACULTY","building", "airport", "highway", "bridge"],
+        "ORG": ["ORGANIZATION","Org","Organization","organization"],
+        "LOC": ["GPE","location","Location","LOCATION","river","mountain"],
+        "PRODUCT": ["Object","OBJ","OBJECT","object", "vehicle", "food"],
+        "EVENT": ["event","Event","hurricane", "battle", "war", "sport"],
+        "WORK_OF_ART": ["book","song"],
+        "LAW": ["Law","law"],
+        "LANGUAGE": ["lang","Language","language"],
+        "DATE": ["date","Date"],
+        "TIME": ["time","Time"],
+        "PERCENT": ["Percent","percent"],
+        "MONEY": ["money","Money"],
+        "QUALITY": ["Quality","quality","weight","distance"],
+        "ORDINAL": ["Ordinal","ordinal"],
+        "CARDINAL": ["Cardinal","cardinal","NUMBER"]
+    },
+
+  "spacy": {
+      "lang": {"eng":"eng", "deu":"deu", "fra":"fra", "por":"por", "ita":"ita"},
+      "model": {"eng": "en_core_web_sm", "deu": "de_core_news_sm","fra": "fr_core_news_sm" ,"por": "pt_core_news_sm", "ita": "it_core_news_sm"} ,
+      "tag": ["PERSON","NORP","FAC","ORG","GPE","LOC","PRODUCT","EVENT","WORK_OF_ART","LAW","LANGUAGE","DATE","TIME","PERCENT","MONEY","QUALITY","ORDINAL","CARDINAL"]
+  },
+
+  "nltk": {
+       "lang": {"eng":"english"},
+       "model":{},
+       "tag":["PERSON","GPE","ORGANIZATION","FACILITY"]
+   },
+
+  "stanford": {
+      "lang": {"eng":"eng", "cro":"cro", "por":"por","deu":"deu", "spa":"spa"},
+      "model":{"eng":"stanford-ner-2018-10-16/stanford-ner-2018-10-16/classifiers/english.all.3class.distsim.crf.ser.gz", "cro":"hr.3-class.distsim.ser.gz", "por":"cat-tolerance_1e-3.ser.gz","deu":"german.conll.germeval2014.hgc_175m_600.crf.ser.gz","spa":"spanish.ancora.distsim.s512.crf.ser.gz"},
+      "tag": ["PERSON", "LOCATION", "ORGANIZATION", "MISC", "MONEY", "NUMBER", "ORDINAL", "PERCENT", "DATE", "TIME", "DURATION", "SET"]
+  },
+  "stanza":{
+  "lang":{"eng":"en"},
+  "model":{"eng":""},
+  "tag":[]
+  }
+
+
+}

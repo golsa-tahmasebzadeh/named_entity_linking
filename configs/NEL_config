@@ -1,0 +1,53 @@
+{
+  "tools": [
+    "agdistis",
+    "dbpedia",
+    "wikifier"
+
+  ],
+
+  "languages": ["eng","deu","fra","por","ita","cro"],
+
+  "wikifier": {
+    "lang": {"deu":"de", "eng":"en", "cro":"hr"},
+    "params": {
+            "extraVocabularies": "",
+            "wikiDataClasses": "false",
+            "wikiDataClassIds": "false",
+            "support": "true",
+            "ranges": "true",
+            "includeCosines": "true",
+            "maxMentionEntropy": "-1",
+            "maxTargetsPerMention": "20",
+            "minLinkFrequency": "1",
+            "pageRankSqThreshold": "-1",
+            "applyPageRankSqThreshold": "true",
+            "partsOfSpeech": "true",
+            "verbs": "true",
+            "nTopDfValuesToIgnore": "0"},
+    "api_url": "http://www.wikifier.org/annotate-article",
+    "user_key": "datswdkekkstrvqsekdlpjfzsuvtex"
+  },
+    "agdistis":{
+    "lang": {"eng":"eng", "deu":"deu", "esp":"esp", "fra":"fra", "ita":"ita", "ja":"ja" ,"nl":"nl","por":"por","zh":"zh"},
+	"api_url":{
+        "eng": "http://akswnc9.informatik.uni-leipzig.de:8113/AGDISTIS",
+        "deu":"http://akswnc9.informatik.uni-leipzig.de:8114/AGDISTIS",
+        "esp":"http://akswnc9.informatik.uni-leipzig.de:8115/AGDISTIS",
+        "fra":"http://akswnc9.informatik.uni-leipzig.de:8116/AGDISTIS",
+        "ita":"http://akswnc9.informatik.uni-leipzig.de:8220/AGDISTIS",
+        "por":"http://akswnc9.informatik.uni-leipzig.de:8220/AGDISTIS",
+        "ja":"",
+        "nl":"",
+        "zh":""
+        },
+	"key":""
+  },
+  "ambiverse": {
+    "lang": "",
+	"api_url":"",
+	"key":""
+  }
+
+
+}

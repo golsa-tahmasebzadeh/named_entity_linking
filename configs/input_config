@@ -1,0 +1,10 @@
+{
+   "task":"NER",
+   "do_merge_ner": "False",
+   "docs_dir": {"eng":"articles/test/"},
+   "ner_dir_out": {"eng":"articles/test/"},
+   "nel_dir_out": {"eng":"outputs/nel/none/"},
+   "ner_selected_tools":["spacy", "stanford"],
+   "nel_selected_tools":[ "agdistis"],
+   "language": "eng"
+}
